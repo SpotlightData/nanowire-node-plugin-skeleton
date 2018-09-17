@@ -1,0 +1,14 @@
+{
+  "memory": "100M",
+  "cpu": "10m",
+  "env": {},
+  "cmd": ["npm", "start"],
+  "outputs": ["jsonld"],
+  "inputs": ["source"],
+  "image": "docker.spotlightdata.co.uk/plugins/nanowire-node-plugin-skeleton:dev",
+  "description": "Skeleton for nanowire node plugins",
+  "email": "info@spotlightdata.co.uk",
+  "author": "Nanowire developer",
+  "name": "nanowire-node-plugin-skeleton",
+  "types": ["SINGLE_FILE"]
+}

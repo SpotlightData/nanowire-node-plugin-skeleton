@@ -1,0 +1,31 @@
+{
+  "name": "nanowire-node-plugin-skeleton",
+  "version": "0.0.1",
+  "private": true,
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "DEBUG=@atecake/builder:* node builder.js build",
+    "start": "node dist/index.js",
+    "test": "jest --config jest.config.js"
+  },
+  "dependencies": {
+    "spotlight-pipeline-client": "git+ssh://git@bitbucket.org/spotlightdatateam/spotlight-pipeline-node.git#v9.0.1"
+  },
+  "devDependencies": {
+    "@atecake/builder": "0.0.6",
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ]
+  }
+}
