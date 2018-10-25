@@ -16,7 +16,6 @@ This skeleton plugin should make the process of creating a new plugin as easy as
 ## Environment Variables
 The plugin needs the following enviroment variables set:
 
-`PLUGIN_ID`, `POD_NAME` and `CONTROLLER_BASE_URI` environment variable names set.
 | Variable name | Expected Value |
 | ------------- | ------------- |
 | POD\_NAME     | The name of the kubernetes pod or just a random string to identify this particular instance of the plugin running |
