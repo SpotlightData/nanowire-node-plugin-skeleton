@@ -1,5 +1,6 @@
 # nanowire-node-plugin-skeleton
-This skeleton plugin should make the process of creating a new plugin as easy as possible.
+This skeleton plugin has been created as a starting point for the process of creating a new plugin for the Nanowire platform. The Nanowire platform provides the pipeline, controller and panel for data processing however the data processing is performed by plugins that interact with Nanowire through an API. The plugins that ship with Nanowire are created by Spotlight Data however you can create your own plugins in order to extend or repurpose the platform to your needs. 
+We currently support creating plugins for: python, node
 
 ## Commands
 
