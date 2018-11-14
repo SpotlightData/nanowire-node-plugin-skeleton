@@ -6,3 +6,5 @@ coverage
 logs
 
 demo/output.json
+
+*env.sh
