@@ -1,6 +1,6 @@
 {
   "name": "nanowire-node-plugin-skeleton",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "main": "dist/index.js",
   "files": [
@@ -12,9 +12,9 @@
     "test": "jest --config jest.config.js"
   },
   "dependencies": {
-    "spotlight-pipeline-client": "git+ssh://git@bitbucket.org/spotlightdatateam/spotlight-pipeline-node.git#v9.0.1"
   },
   "devDependencies": {
+    "@spotlightdata/node-logger": "^0.1.2",
     "@atecake/builder": "0.0.6",
     "@babel/core": "^7.0.1",
     "@babel/preset-env": "^7.0.0",
